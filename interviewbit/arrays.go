@@ -6,7 +6,9 @@ import (
 )
 
 func main() {
-	//test min-steps-in-infinite-grid
-	fmt.Println(arrays.CoverPoints([]int{0, 1, 1}, []int{0, 1, 2}))
-	fmt.Println(arrays.CoverPoints([]int{0, 1, 3}, []int{0, 2, 2}))
+	//test noble-integers
+	fmt.Println(arrays.Solve([]int{6, 7, 5})) //-1
+	fmt.Println(arrays.Solve([]int{6, 1})) //1
+	fmt.Println(arrays.Solve([]int{-1, -2, 0, 0, 0, -3}))
+	fmt.Println(arrays.Solve([]int{-10, 1, -6, -2}))
 }
