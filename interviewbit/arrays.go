@@ -6,8 +6,9 @@ import (
 )
 
 func main() {
-	//test min-steps-in-infinite-grid
-	fmt.Println(arrays.MaxSpecialProduct([]int{5, 9, 6, 8, 6, 4, 6, 9, 5, 4, 9 }))
-	fmt.Println(arrays.MaxSpecialProduct([]int{6, 7, 9, 5, 5, 8 }))
-	fmt.Println(arrays.MaxSpecialProduct([]int{7, 5, 7, 9, 8, 7}))
+	//test noble-integers
+	fmt.Println(arrays.Solve([]int{6, 7, 5})) //-1
+	fmt.Println(arrays.Solve([]int{6, 1})) //1
+	fmt.Println(arrays.Solve([]int{-1, -2, 0, 0, 0, -3}))
+	fmt.Println(arrays.Solve([]int{-10, 1, -6, -2}))
 }
